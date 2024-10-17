@@ -1,0 +1,11 @@
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000/api/converter
+Content-Type: application/json
+
+{
+    "type": "celsius2f",
+    "value": "hello"
+}   
